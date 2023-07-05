@@ -96,7 +96,7 @@ public class StudentConverterTests
     }
 
     [Fact]
-    public void ConvertStudents_ŃullPassed_ThrowsException()
+    public void ConvertStudents_NullPassed_ThrowsException()
     {
         //Arrange
         List<Student> inputList = null!;

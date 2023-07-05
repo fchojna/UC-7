@@ -65,7 +65,7 @@ public class PlayerAnalyzerTests
     }
 
     [Fact]
-    public void CalculateScore_EmptyArrayPassed_ThrowsException()
+    public void CalculateScore_EmptyArrayPassed_ScoreEquals0()
     {
         //Arrange
         var playerList = new List<Player>();
