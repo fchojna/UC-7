@@ -1,5 +1,4 @@
-﻿using System.Xml.Linq;
-using Xunit;
+﻿using Xunit;
 
 namespace UC7.Tests;
 
@@ -100,7 +99,7 @@ public class StudentConverterTests
     public void ConvertStudents_ŃullPassed_ThrowsException()
     {
         //Arrange
-        List<Student> inputList = null;
+        List<Student> inputList = null!;
                 
         //Act & Assert
         Assert.ThrowsAny<Exception>(() => _studentConverter.ConvertStudents(inputList));
